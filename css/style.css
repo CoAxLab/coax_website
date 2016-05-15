@@ -135,6 +135,40 @@ span.menu {
   font-family: 'Play-Regular';
   text-align:center;
 }
+
+.publications h3 {
+ font-size: 2.5em;
+  text-transform: capitalize;
+  color: #2d49AB;
+  font-family: 'Play-Regular';
+  text-align:left;
+  padding: 20px 0px 15px 0px;
+}
+
+.publications p {
+ font-size: 2em;
+  font-family: 'Play-Regular';
+  text-align:left;
+  padding: 0px 0px 10px 40px;
+}
+
+
+.publications a.publinks:link	{
+color: #30c0fc;
+}
+
+.publications a.publinks:hover{
+color: #30c0fc;
+}
+.publications a.publinks:visited{
+color: #30c0fc;
+}
+.publications a.publinks:active{
+color: #30c0fc;
+}
+
+
+
 .services-grids {
   margin-top: 3em;
 }
