@@ -137,7 +137,7 @@ span.menu {
 }
 
 .publications h3 {
- font-size: 1.5em;
+ font-size: 2em;
   text-transform: capitalize;
   color: #2d49AB;
   font-family: 'Play-Regular';
@@ -146,7 +146,7 @@ span.menu {
 }
 
 .publications p {
- font-size: 1em;
+ font-size: 1.5em;
   font-family: 'Play-Regular';
   text-align:left;
   padding: 0px 0px 10px 40px;
