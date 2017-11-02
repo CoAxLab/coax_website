@@ -6,7 +6,6 @@ from IPython.display import HTML
 import sys, getopt
 
 url = sys.argv[1]
-url = 'http://biorxiv.org/content/early/2017/05/10/136473'
 
 manuscript_title = ''
 authors = ''
