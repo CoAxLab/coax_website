@@ -1,0 +1,137 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CoAxlab | Media</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Sciencelab Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/modernizr.custom.97074.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+<!--script-->
+<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.gallery a').Chocolat();
+		});
+		</script>
+<!--script-->
+
+</head>
+<body>
+	<div class="header head1" >
+		<div class="header-top">
+			<div class="container">
+			   <div class="logo">
+				   <a href="index.html">CoAx<span>Lab</span></a>
+				</div>
+				<div class="top-menu">
+					<span class="menu"><img src="images/nav.png" alt=""/> </span>
+						<ul>
+
+						<li><a href="members.html">People</a></li>
+						<li><a href="publications.html" >Publications</a></li>
+						<li><a href="posters.html" >Posters</a></li>
+                   		<li><a href="http://github.com/CoAxLab" >Code</a></li>
+						<li><a href="data.html" >Data</a></li>
+						<li><a href="media.html" >Media</a></li>
+
+
+					</ul><strong></strong>
+				</div>
+					 <!--script-nav-->
+						 <script>
+						 $("span.menu").click(function(){
+						 $(".top-menu ul").slideToggle("slow" , function(){
+						 });
+						 });
+						 </script>
+
+						<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--single-->
+	<div class="single">
+		<div class="container">
+
+
+
+<h2>The CoAxies</h2>
+
+Each year the lab gets together and discusses what it things are the best papers
+we've discussed over the year. We break our topics down into four categories and
+as a group select the best paper in that group. We don't wear tuxes or evening gowns
+(at least not yet), but hijinx do ensue.
+
+<br>
+<br>
+<h3> 2017 </h3>
+<hr />
+
+<b><i> Computational Neuroscience </i></b>
+
+<div class="entry-content">
+
+
+<p> <a href="https://www.sciencedirect.com/science/article/pii/S1364661317300542"> Palminteri, S., Wyart, V., & Koechlin, E. (2017). The importance of falsification in computational cognitive modeling. Trends in cognitive sciences, 21(6), 425-433.</a>
+
+
+
+</div><!-- .entry-content -->
+
+
+
+
+</div>
+
+	<!--footer-->
+		<div class="footer-section">
+						<div class="container">
+							<div class="footer-bottom">
+					       	 <p>Copyright &copy; 2016 <span>CoAxlab.</span> All rights reserved | banner by KJ | Icons by KD | Design by<a href="http://w3layouts.com">W3layouts</a></p>
+
+									</div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear'
+					 		};
+							*/
+
+							$().UItoTop({ easingType: 'easeOutQuart' });
+
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+</body>
+</html>
